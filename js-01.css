@@ -1,0 +1,30 @@
+
+.graph {
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    border-left: 1px solid pink;
+    border-bottom: 1px solid pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.graph li{
+    display: flex;
+    list-style: none;
+    height: 200px;
+    width: 50px;
+    background-color: pink;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.graph li span{
+    margin-top: -20px;
+}
+.graph li h4{
+    width: 70px;
+    margin-bottom: -35px;
+}
